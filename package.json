@@ -1,0 +1,33 @@
+{
+  "name": "bible-study-saas",
+  "version": "1.0.0",
+  "description": "Online Bible Study Tool",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [
+    "bible",
+    "study",
+    "christian",
+    "kjv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "@vapi-ai/server-sdk": "^0.5.1",
+    "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "googleapis": "^148.0.0",
+    "twilio": "^5.5.1"
+  }
+}

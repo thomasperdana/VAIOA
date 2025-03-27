@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+
+# Node modules
+node_modules
+
+# Frontend build output
+frontend/dist
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
