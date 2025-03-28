@@ -13,6 +13,9 @@ yarn-error.log*
 # Environment variables
 .env
 
+# Sensitive credentials / Service account keys
+extended-loader-455101-b8-a8a95fc4a80b.json
+
 # OS generated files
 .DS_Store
 Thumbs.db
